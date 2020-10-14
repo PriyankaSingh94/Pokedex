@@ -1,0 +1,26 @@
+.list {
+    padding: 10px;
+    display: grid;
+    grid-gap: 20px;
+    align-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: minmax(150px, auto);
+    position: relative;
+}
+
+.show-popup {
+    opacity: 0.5;
+}
+
+.pokemon {
+    background-color: cadetblue;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pokemon h2:hover {
+    color: lightblue;
+}

@@ -1,0 +1,6 @@
+<div class="list" [ngClass]="{'show-popup': show}">
+    <div class="pokemon" *ngFor="let pokemon of pokemons" (click)="showDetails(pokemon)">
+        <h2 class="name">{{pokemon.name}}</h2>
+    </div>
+    <app-pokemon-detail [pokemon]="selectedPokemon" [show]="show" (onClose)="hideDetails()"></app-pokemon-detail>
+</div>
