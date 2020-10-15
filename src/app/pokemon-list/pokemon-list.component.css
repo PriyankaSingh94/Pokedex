@@ -4,7 +4,7 @@
     grid-gap: 20px;
     align-content: center;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-template-rows: minmax(150px, auto);
+    grid-template-rows: repeat(auto-fill, minmax(130px, auto));
     position: relative;
 }
 
@@ -19,8 +19,31 @@
     border-radius: 8px;
     text-align: center;
     cursor: pointer;
+    min-height: 130px;;
 }
 
 .pokemon h2:hover {
     color: lightblue;
+}
+
+.nav-btn button{
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    min-height: 20px;
+    margin: 5px;
+}
+
+.btns button {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size:16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius:5px;
+    max-height: 30px;
+    margin-top: 5%;
 }

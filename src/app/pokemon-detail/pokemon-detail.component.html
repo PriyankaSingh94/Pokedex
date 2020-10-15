@@ -1,6 +1,6 @@
 <div class="detail-container" *ngIf="show">
     <h2>{{pokemon.name}}</h2>
-    <div>
+    <div *ngIf="!editMode">
         <p><span>Id:</span>{{pokemon.id}}</p>
         <p><span>Name:</span>{{pokemon.name}}</p>
         <p><span>HP:</span>{{pokemon.hp}}</p>
@@ -8,14 +8,18 @@
         <p><span>Defend:</span>{{pokemon.defend}}</p>
     </div>
     <div *ngIf="editMode">
+        <label>Id: </label>
+        <input [(ngModel)]= "pokemon.id" [disabled]="true" placeholder="Name"><br>
         <label>Name: </label>
-        <input [{ngModel}]= "pokemon.name" placeholder="Name">
+        <input [(ngModel)]= "pokemon.name" placeholder="Name">
+        <br>
         <label>HP: </label>
-        <input [{ngModel}]= "pokemon.hp" placeholder="HP">
+        <input [(ngModel)]= "pokemon.hp" placeholder="HP"><br>
         <label>Attack: </label>
-        <input [{ngModel}]= "pokemon.attack" placeholder="Attack">
+        <input [(ngModel)]= "pokemon.attack" placeholder="Attack"><br>
         <label>Defend: </label>
-        <input [{ngModel}]= "pokemon.defend" placeholder="Defend">
+        <input [(ngModel)]= "pokemon.defend" placeholder="Defend"><br>
+        <button (click)="edit()">Edit</button>
     </div>
     <button (click)="closeDetails()">Close</button>
 </div>

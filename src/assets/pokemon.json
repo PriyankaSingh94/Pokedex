@@ -2,519 +2,1058 @@
   {
     "id": 1,
     "name": "Pikachu",
-    "hp": 100,
+    "hp": 197,
+    "attack": 196,
+    "defend": 61
+  },
+  {
+    "id": 2,
+    "name": "Eevee",
+    "hp": 147,
+    "attack": 104,
+    "defend": 102
+  },
+  {
+    "id": 3,
+    "name": "Snorlax",
+    "hp": 147,
+    "attack": 50,
+    "defend": 12
+  },
+  {
+    "id": 4,
+    "name": "Charizard",
+    "hp": 197,
+    "attack": 5,
+    "defend": 180
+  },
+  {
+    "id": 5,
+    "name": "MewTwo",
+    "hp": 199,
+    "attack": 92,
+    "defend": 102
+  },
+  {
+    "id": 6,
+    "name": "Ditto",
+    "hp": 97,
+    "attack": 13,
+    "defend": 164
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "hp": 187,
+    "attack": 172,
+    "defend": 182
+  },
+  {
+    "id": 8,
+    "name": "Genger",
+    "hp": 38,
+    "attack": 99,
+    "defend": 135
+  },
+  {
+    "id": 9,
+    "name": "Bulbasaur",
+    "hp": 188,
+    "attack": 172,
+    "defend": 191
+  },
+  {
+    "id": 10,
+    "name": "Ditto",
+    "hp": 68,
+    "attack": 113,
+    "defend": 7
+  },
+  {
+    "id": 11,
+    "name": "Jigglypuff",
+    "hp": 49,
+    "attack": 147,
+    "defend": 32
+  },
+  {
+    "id": 12,
+    "name": "Sylveon",
+    "hp": 5,
+    "attack": 151,
+    "defend": 97
+  },
+  {
+    "id": 13,
+    "name": "Locario",
+    "hp": 177,
+    "attack": 173,
+    "defend": 34
+  },
+  {
+    "id": 14,
+    "name": "Deoxys",
+    "hp": 162,
+    "attack": 76,
+    "defend": 22
+  },
+  {
+    "id": 15,
+    "name": "Espeon",
+    "hp": 181,
+    "attack": 91,
+    "defend": 32
+  },
+  {
+    "id": 16,
+    "name": "Magikarp",
+    "hp": 61,
+    "attack": 116,
+    "defend": 57
+  },
+  {
+    "id": 17,
+    "name": "Slowpoke",
+    "hp": 74,
+    "attack": 24,
+    "defend": 2
+  },
+  {
+    "id": 18,
+    "name": "Togekiss",
+    "hp": 11,
+    "attack": 23,
+    "defend": 159
+  },
+  {
+    "id": 19,
+    "name": "Genger",
+    "hp": 164,
+    "attack": 8,
+    "defend": 122
+  },
+  {
+    "id": 20,
+    "name": "Giratina",
+    "hp": 109,
+    "attack": 39,
+    "defend": 153
+  },
+  {
+    "id": 21,
+    "name": "Ditto",
+    "hp": 120,
+    "attack": 196,
+    "defend": 32
+  },
+  {
+    "id": 22,
+    "name": "Jigglypuff",
+    "hp": 155,
+    "attack": 8,
+    "defend": 39
+  },
+  {
+    "id": 23,
+    "name": "Squirtle",
+    "hp": 13,
+    "attack": 17,
+    "defend": 60
+  },
+  {
+    "id": 24,
+    "name": "Pikachu",
+    "hp": 63,
+    "attack": 3,
+    "defend": 48
+  },
+  {
+    "id": 25,
+    "name": "Eevee",
+    "hp": 30,
+    "attack": 45,
+    "defend": 108
+  },
+  {
+    "id": 26,
+    "name": "Charizard",
+    "hp": 186,
+    "attack": 46,
+    "defend": 198
+  },
+  {
+    "id": 27,
+    "name": "MewTwo",
+    "hp": 107,
+    "attack": 137,
+    "defend": 170
+  },
+  {
+    "id": 28,
+    "name": "Bulbasaur",
+    "hp": 120,
+    "attack": 78,
+    "defend": 111
+  },
+  {
+    "id": 29,
+    "name": "Lucario",
+    "hp": 112,
+    "attack": 39,
+    "defend": 120
+  },
+  {
+    "id": 30,
+    "name": "Genger",
+    "hp": 140,
+    "attack": 11,
+    "defend": 8
+  },
+  {
+    "id": 31,
+    "name": "Mewtwo",
+    "hp": 18,
+    "attack": 49,
+    "defend": 85
+  },
+  {
+    "id": 32,
+    "name": "Venusaur",
+    "hp": 62,
+    "attack": 22,
+    "defend": 144
+  },
+  {
+    "id": 33,
+    "name": "Charizard",
+    "hp": 126,
+    "attack": 63,
+    "defend": 183
+  },
+  {
+    "id": 34,
+    "name": "Jigglypuff",
+    "hp": 154,
+    "attack": 85,
+    "defend": 88
+  },
+  {
+    "id": 35,
+    "name": "Espeon",
+    "hp": 105,
+    "attack": 70,
+    "defend": 78
+  },
+  {
+    "id": 36,
+    "name": "Raichu",
+    "hp": 129,
+    "attack": 141,
+    "defend": 152
+  },
+  {
+    "id": 37,
+    "name": "Charizard",
+    "hp": 41,
+    "attack": 17,
+    "defend": 140
+  },
+  {
+    "id": 38,
+    "name": "Genger",
+    "hp": 155,
+    "attack": 45,
+    "defend": 27
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "hp": 170,
+    "attack": 77,
+    "defend": 68
+  },
+  {
+    "id": 40,
+    "name": "Pikachu",
+    "hp": 39,
+    "attack": 116,
+    "defend": 104
+  },
+  {
+    "id": 41,
+    "name": "Raichu",
+    "hp": 166,
+    "attack": 55,
+    "defend": 144
+  },
+  {
+    "id": 42,
+    "name": "Snorlax",
+    "hp": 86,
+    "attack": 77,
+    "defend": 138
+  },
+  {
+    "id": 43,
+    "name": "Charizard",
+    "hp": 197,
+    "attack": 54,
+    "defend": 128
+  },
+  {
+    "id": 44,
+    "name": "Ditto",
+    "hp": 129,
+    "attack": 116,
+    "defend": 169
+  },
+  {
+    "id": 45,
+    "name": "Pikachu",
+    "hp": 84,
+    "attack": 108,
+    "defend": 68
+  },
+  {
+    "id": 46,
+    "name": "Bulbasaur",
+    "hp": 88,
+    "attack": 22,
+    "defend": 97
+  },
+  {
+    "id": 47,
+    "name": "Pikachu",
+    "hp": 65,
+    "attack": 124,
+    "defend": 68
+  },
+  {
+    "id": 48,
+    "name": "Ditto",
+    "hp": 93,
+    "attack": 31,
+    "defend": 82
+  },
+  {
+    "id": 49,
+    "name": "Jigglypuff",
+    "hp": 171,
+    "attack": 163,
+    "defend": 158
+  },
+  {
+    "id": 50,
+    "name": "Squirtle",
+    "hp": 67,
+    "attack": 131,
+    "defend": 156
+  },
+  {
+    "id": 51,
+    "name": "Pikachu",
+    "hp": 193,
+    "attack": 182,
+    "defend": 83
+  },
+  {
+    "id": 52,
+    "name": "Charizard",
+    "hp": 71,
+    "attack": 192,
+    "defend": 35
+  },
+  {
+    "id": 53,
+    "name": "Balbasaur",
+    "hp": 14,
+    "attack": 143,
+    "defend": 62
+  },
+  {
+    "id": 54,
+    "name": "Lucario",
+    "hp": 130,
+    "attack": 131,
+    "defend": 164
+  },
+  {
+    "id": 55,
+    "name": "Genger",
+    "hp": 93,
+    "attack": 92,
+    "defend": 167
+  },
+  {
+    "id": 56,
+    "name": "MewTwo",
+    "hp": 83,
+    "attack": 56,
+    "defend": 110
+  },
+  {
+    "id": 57,
+    "name": "Squirtle",
+    "hp": 35,
+    "attack": 43,
+    "defend": 28
+  },
+  {
+    "id": 58,
+    "name": "MewTwo",
+    "hp": 181,
+    "attack": 35,
+    "defend": 141
+  },
+  {
+    "id": 59,
+    "name": "Ditto",
+    "hp": 47,
+    "attack": 188,
+    "defend": 94
+  },
+  {
+    "id": 60,
+    "name": "Jigglypuff",
+    "hp": 62,
+    "attack": 129,
+    "defend": 76
+  },
+  {
+    "id": 61,
+    "name": "Lucario",
+    "hp": 116,
+    "attack": 169,
+    "defend": 139
+  },
+  {
+    "id": 62,
+    "name": "Bulbasaur",
+    "hp": 50,
+    "attack": 106,
+    "defend": 98
+  },
+  {
+    "id": 63,
+    "name": "Jigglypuff",
+    "hp": 86,
+    "attack": 14,
+    "defend": 129
+  },
+  {
+    "id": 64,
+    "name": "Espeon",
+    "hp": 88,
+    "attack": 136,
+    "defend": 164
+  },
+  {
+    "id": 65,
+    "name": "Squirtle",
+    "hp": 145,
+    "attack": 192,
+    "defend": 86
+  },
+  {
+    "id": 66,
+    "name": "Snorlax",
+    "hp": 154,
+    "attack": 5,
+    "defend": 76
+  },
+  {
+    "id": 67,
+    "name": "Bulbasaur",
+    "hp": 31,
+    "attack": 18,
+    "defend": 197
+  },
+  {
+    "id": 68,
+    "name": "Genger",
+    "hp": 20,
+    "attack": 131,
+    "defend": 75
+  },
+  {
+    "id": 69,
+    "name": "Mewtwo",
+    "hp": 154,
+    "attack": 173,
+    "defend": 152
+  },
+  {
+    "id": 70,
+    "name": "Eevee",
+    "hp": 189,
+    "attack": 167,
+    "defend": 20
+  },
+  {
+    "id": 71,
+    "name": "Lucario",
+    "hp": 162,
+    "attack": 13,
+    "defend": 142
+  },
+  {
+    "id": 72,
+    "name": "Mew",
+    "hp": 72,
+    "attack": 112,
+    "defend": 119
+  },
+  {
+    "id": 73,
+    "name": "Charizard",
+    "hp": 99,
+    "attack": 35,
+    "defend": 75
+  },
+  {
+    "id": 74,
+    "name": "Bulbasaur",
+    "hp": 48,
+    "attack": 98,
+    "defend": 54
+  },
+  {
+    "id": 75,
+    "name": "Ditto",
+    "hp": 151,
+    "attack": 53,
+    "defend": 42
+  },
+  {
+    "id": 76,
+    "name": "Squirtle",
+    "hp": 49,
+    "attack": 152,
+    "defend": 172
+  },
+  {
+    "id": 77,
+    "name": "Snorlax",
+    "hp": 152,
+    "attack": 110,
+    "defend": 167
+  },
+  {
+    "id": 78,
+    "name": "Pikachu",
+    "hp": 60,
+    "attack": 38,
+    "defend": 106
+  },
+  {
+    "id": 79,
+    "name": "Greninja",
+    "hp": 102,
+    "attack": 125,
+    "defend": 28
+  },
+  {
+    "id": 80,
+    "name": "Genger",
+    "hp": 111,
+    "attack": 146,
+    "defend": 111
+  },
+  {
+    "id": 81,
+    "name": "Charizard",
+    "hp": 132,
+    "attack": 83,
+    "defend": 52
+  },
+  {
+    "id": 82,
+    "name": "Genesect",
+    "hp": 11,
+    "attack": 158,
+    "defend": 142
+  },
+  {
+    "id": 83,
+    "name": "MewTwo",
+    "hp": 24,
+    "attack": 98,
+    "defend": 110
+  },
+  {
+    "id": 84,
+    "name": "Jigglypuff",
+    "hp": 142,
+    "attack": 21,
+    "defend": 137
+  },
+  {
+    "id": 85,
+    "name": "Genger",
+    "hp": 27,
+    "attack": 100,
+    "defend": 105
+  },
+  {
+    "id": 86,
+    "name": "Gardevoir",
+    "hp": 10,
+    "attack": 174,
+    "defend": 177
+  },
+  {
+    "id": 87,
+    "name": "Lucario",
+    "hp": 56,
+    "attack": 76,
+    "defend": 133
+  },
+  {
+    "id": 88,
+    "name": "Bulbasaur",
+    "hp": 110,
+    "attack": 54,
+    "defend": 67
+  },
+  {
+    "id": 89,
+    "name": "Espeon",
+    "hp": 121,
+    "attack": 142,
+    "defend": 116
+  },
+  {
+    "id": 90,
+    "name": "Ditto",
+    "hp": 188,
+    "attack": 124,
+    "defend": 166
+  },
+  {
+    "id": 91,
+    "name": "Snorlax",
+    "hp": 149,
+    "attack": 176,
+    "defend": 57
+  },
+  {
+    "id": 92,
+    "name": "Mew",
+    "hp": 42,
+    "attack": 119,
+    "defend": 17
+  },
+  {
+    "id": 93,
+    "name": "Squirtle",
+    "hp": 91,
+    "attack": 44,
+    "defend": 112
+  },
+  {
+    "id": 94,
+    "name": "Genesect",
+    "hp": 39,
+    "attack": 166,
+    "defend": 80
+  },
+  {
+    "id": 95,
+    "name": "Scizor",
+    "hp": 146,
+    "attack": 85,
+    "defend": 50
+  },
+  {
+    "id": 96,
+    "name": "Genger",
+    "hp": 67,
+    "attack": 110,
+    "defend": 131
+  },
+  {
+    "id": 97,
+    "name": "Bulbasaur",
+    "hp": 93,
+    "attack": 11,
+    "defend": 56
+  },
+  {
+    "id": 98,
+    "name": "Raichu",
+    "hp": 153,
+    "attack": 67,
+    "defend": 117
+  },
+  {
+    "id": 99,
+    "name": "MewTwo",
+    "hp": 127,
+    "attack": 166,
+    "defend": 109
+  },
+  {
+    "id": 100,
+    "name": "Charizard",
+    "hp": 66,
+    "attack": 188,
+    "defend": 118
+  },
+  {
+    "id": 101,
+    "name": "Ditto",
+    "hp": 81,
+    "attack": 162,
+    "defend": 148
+  },
+  {
+    "id": 102,
+    "name": "Deoxys",
+    "hp": 156,
+    "attack": 134,
+    "defend": 26
+  },
+  {
+    "id": 103,
+    "name": "Jigglypuff",
+    "hp": 56,
+    "attack": 123,
+    "defend": 168
+  },
+  {
+    "id": 104,
+    "name": "Squirtle",
+    "hp": 32,
+    "attack": 136,
+    "defend": 37
+  },
+  {
+    "id": 105,
+    "name": "Charizard",
+    "hp": 5,
+    "attack": 13,
+    "defend": 161
+  },
+  {
+    "id": 106,
+    "name": "Genger",
+    "hp": 156,
+    "attack": 4,
+    "defend": 115
+  },
+  {
+    "id": 107,
+    "name": "Ditto",
+    "hp": 51,
+    "attack": 88,
+    "defend": 163
+  },
+  {
+    "id": 108,
+    "name": "Charizard",
+    "hp": 192,
+    "attack": 52,
+    "defend": 194
+  },
+  {
+    "id": 109,
+    "name": "MewTwo",
+    "hp": 1,
+    "attack": 60,
+    "defend": 86
+  },
+  {
+    "id": 110,
+    "name": "Eevee",
+    "hp": 103,
+    "attack": 162,
+    "defend": 195
+  },
+  {
+    "id": 111,
+    "name": "Glaceon",
+    "hp": 155,
+    "attack": 189,
+    "defend": 133
+  },
+  {
+    "id": 112,
+    "name": "MewTwo",
+    "hp": 154,
+    "attack": 174,
+    "defend": 7
+  },
+  {
+    "id": 113,
+    "name": "Snorlax",
+    "hp": 61,
+    "attack": 184,
+    "defend": 175
+  },
+  {
+    "id": 114,
+    "name": "Squirtle",
+    "hp": 64,
+    "attack": 32,
+    "defend": 61
+  },
+  {
+    "id": 115,
+    "name": "Jigglypuff",
+    "hp": 88,
+    "attack": 86,
+    "defend": 23
+  },
+  {
+    "id": 116,
+    "name": "Deoxys",
+    "hp": 99,
+    "attack": 171,
+    "defend": 102
+  },
+  {
+    "id": 117,
+    "name": "Ditto",
+    "hp": 118,
+    "attack": 136,
+    "defend": 23
+  },
+  {
+    "id": 118,
+    "name": "MewTwo",
+    "hp": 94,
+    "attack": 92,
+    "defend": 86
+  },
+  {
+    "id": 119,
+    "name": "Pikachu",
+    "hp": 195,
+    "attack": 12,
+    "defend": 155
+  },
+  {
+    "id": 120,
+    "name": "Squirtle",
+    "hp": 14,
+    "attack": 198,
+    "defend": 86
+  },
+  {
+    "id": 121,
+    "name": "Eevee",
+    "hp": 49,
+    "attack": 1,
+    "defend": 7
+  },
+  {
+    "id": 122,
+    "name": "Mew",
+    "hp": 127,
+    "attack": 171,
+    "defend": 43
+  },
+  {
+    "id": 123,
+    "name": "Genger",
+    "hp": 167,
+    "attack": 131,
+    "defend": 136
+  },
+  {
+    "id": 124,
+    "name": "Squirtle",
+    "hp": 20,
+    "attack": 164,
+    "defend": 58
+  },
+  {
+    "id": 125,
+    "name": "Eevee",
+    "hp": 15,
+    "attack": 195,
+    "defend": 38
+  },
+  {
+    "id": 126,
+    "name": "Mewtwo",
+    "hp": 24,
+    "attack": 45,
+    "defend": 165
+  },
+  {
+    "id": 127,
+    "name": "Ditto",
+    "hp": 145,
+    "attack": 49,
+    "defend": 188
+  },
+  {
+    "id": 128,
+    "name": "Jigglypuff",
+    "hp": 36,
+    "attack": 99,
+    "defend": 168
+  },
+  {
+    "id": 129,
+    "name": "Pikachu",
+    "hp": 133,
+    "attack": 27,
+    "defend": 171
+  },
+  {
+    "id": 130,
+    "name": "Bulbasaur",
+    "hp": 12,
+    "attack": 46,
+    "defend": 35
+  },
+  {
+    "id": 131,
+    "name": "Ditto",
+    "hp": 159,
+    "attack": 111,
+    "defend": 195
+  },
+  {
+    "id": 132,
+    "name": "Pikachu",
+    "hp": 140,
+    "attack": 146,
+    "defend": 180
+  },
+  {
+    "id": 133,
+    "name": "MewTwo",
+    "hp": 135,
+    "attack": 38,
+    "defend": 50
+  },
+  {
+    "id": 134,
+    "name": "Squirtle",
+    "hp": 89,
     "attack": 150,
-    "defend": 200
+    "defend": 158
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 135,
+    "name": "Bulbasaur",
+    "hp": 93,
+    "attack": 9,
+    "defend": 166
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
-  },
-  {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 136,
+    "name": "Pikachu",
+    "hp": 129,
+    "attack": 26,
+    "defend": 9
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 137,
+    "name": "Squirtle",
+    "hp": 173,
+    "attack": 26,
+    "defend": 180
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 138,
+    "name": "Mewtwo",
+    "hp": 62,
+    "attack": 130,
+    "defend": 18
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 139,
+    "name": "Charizard",
+    "hp": 124,
+    "attack": 104,
+    "defend": 50
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 140,
+    "name": "Squirtle",
+    "hp": 198,
+    "attack": 96,
+    "defend": 17
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 141,
+    "name": "MewTwo",
+    "hp": 34,
+    "attack": 180,
+    "defend": 107
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 142,
+    "name": "Mew",
+    "hp": 154,
+    "attack": 194,
+    "defend": 79
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 143,
+    "name": "Togepi",
+    "hp": 159,
+    "attack": 40,
+    "defend": 161
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 144,
+    "name": "Pikachu",
+    "hp": 145,
+    "attack": 92,
+    "defend": 125
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 145,
+    "name": "Bulbasaur",
+    "hp": 106,
+    "attack": 89,
+    "defend": 55
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 146,
+    "name": "MewTwo",
+    "hp": 25,
+    "attack": 149,
+    "defend": 106
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 147,
+    "name": "Genger",
+    "hp": 93,
+    "attack": 45,
+    "defend": 130
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 148,
+    "name": "Snorlax",
+    "hp": 88,
+    "attack": 97,
+    "defend": 6
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 149,
+    "name": "Squirtle",
+    "hp": 95,
+    "attack": 127,
+    "defend": 199
   },
   {
-    "id": 1,
-    "name": "",
+    "id": 150,
+    "name": "Pikachu",
     "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "attack": 158,
+    "defend": 194
   },
   {
-    "id": 1,
-    "name": "",
-    "hp": 1,
-    "attack": 1,
-    "defend": 2
+    "id": 151,
+    "name": "Charizard",
+    "hp": 17,
+    "attack": 182,
+    "defend": 68
   }
 ]

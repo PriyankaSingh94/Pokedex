@@ -1,6 +1,14 @@
 <div class="list" [ngClass]="{'show-popup': show}">
     <div class="pokemon" *ngFor="let pokemon of pokemons" (click)="showDetails(pokemon)">
         <h2 class="name">{{pokemon.name}}</h2>
+        <div class="btns">
+            <button (click)="editPokemon(pokemon)">Edit</button>
+            <button (click)="delete(pokemon.id)">Delete</button>
+        </div>
     </div>
-    <app-pokemon-detail [pokemon]="selectedPokemon" [show]="show" (onClose)="hideDetails()"></app-pokemon-detail>
+    <div class="nav-btn">
+        <button (click)="prevPage()" [disabled]="hidePrev">Prev</button>
+        <button (click)="nextPage()" [disabled]="hideNext">Next</button>
+    </div>
+    <app-pokemon-detail [pokemon]="selectedPokemon" [show]="show" [editMode]="editMode" (onClose)="hideDetails()"></app-pokemon-detail>
 </div>
